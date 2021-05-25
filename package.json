@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "express": "^4.17.1"
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
   }
 }
