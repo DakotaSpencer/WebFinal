@@ -36,8 +36,6 @@ exports.createPerson = (req, res) => {
     let user = new User({
       name: req.body.name,
       age: req.body.age,
-      species: req.body.species,
-      imgURL: req.body.img_url,
       email: req.body.email
     });
   

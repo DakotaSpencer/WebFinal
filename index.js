@@ -15,10 +15,6 @@ let urlencodedParser = bodyParser.urlencoded({
     extended: true
 });
 
-<<<<<<< Updated upstream
-let mdb = mongoose.connection;
-mdb.on('error', console.error.bind(console, 'connection error'));
-=======
 app.get('/api', routes.index);
 
 app.post('/login', urlencodedParser, routes.login);
@@ -30,4 +26,3 @@ app.post('/create', urlencodedParser, routes.createAccount);
 //deletes based on ID
 
 app.listen(3000);
->>>>>>> Stashed changes
