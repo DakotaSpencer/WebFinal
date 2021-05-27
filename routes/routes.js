@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 const dbPath = "mongodb+srv://JWilliams1233:9542715.Jw1233@cluster0.ujp1m.mongodb.net/Users?retryWrites=true&w=majority"
+=======
+const dbPath = "mongodb+srv://JWilliams1233:pass~word@cluster0.ujp1m.mongodb.net/Users?retryWrites=true&w=majority"
+>>>>>>> Stashed changes
 
 const mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
