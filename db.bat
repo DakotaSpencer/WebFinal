@@ -1,1 +1,0 @@
-"C:\Program Files\MongoDB\Server\4.4\bin\mongod" --dbpath "C:\Users\dspencer\Documents\WebDevFinal\data"
