@@ -1,4 +1,4 @@
-const dbPath = "mongodb+srv://JWilliams1233:pass~word.Jw1233@cluster0.ujp1m.mongodb.net/Users?retryWrites=true&w=majority"
+const dbPath = "mongodb+srv://JWilliams1233:pass~word@cluster0.ujp1m.mongodb.net/Users?retryWrites=true&w=majority"
 
 const mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
