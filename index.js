@@ -8,13 +8,9 @@ const cors = require('cors');
 const app = express();
 
 app.use(cors())
-<<<<<<< Updated upstream
 
 app.set('view engine', 'pug');
 
-=======
-app.set('view-engine', 'pug');
->>>>>>> Stashed changes
 app.use(express.static(path.join(__dirname, 'public')));
 
 let urlencodedParser = bodyParser.urlencoded({

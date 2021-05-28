@@ -24,13 +24,8 @@ let userSchema = mongoose.Schema({
 let User = mongoose.model('User_Collection', userSchema);
 
 exports.index = (req, res) => {
-<<<<<<< Updated upstream
-  res.render('home', {
-    title: "Welcome home"
-=======
   res.render('index', {
-    title: 'Home'
->>>>>>> Stashed changes
+    title: "Index"
   })
 }
 
