@@ -1,10 +1,16 @@
 {
   "dependencies": {
     "bcryptjs": "^2.4.3",
+<<<<<<< Updated upstream
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.12.11",
+=======
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.12",
+>>>>>>> Stashed changes
     "pug": "^3.0.2"
   }
 }
